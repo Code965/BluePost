@@ -1,0 +1,110 @@
+h1{
+
+    color:black;
+}
+
+
+.flex_container{
+    display: flex;
+}
+
+.justify_content{
+    justify-content: center;
+}
+
+.align_center{
+    align-items: center;
+}
+
+
+.ProfilePageContainer{
+
+    width: 100%;
+    gap: 40px;
+    flex-direction: column;
+}
+
+
+.ProfilePageContainer .ProfilePageItems{
+
+    width: 100%;
+    gap: 40px;
+    color: black;
+    flex-wrap: wrap;
+
+}
+
+.ProfilePageContainer .autorSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfilePageContainer .ProfilePageItems .foto{
+    margin-top: 50px;
+    width:22%;
+    height: 400px;
+    background-color: black; 
+    border-radius: 400px;
+}
+
+
+.ProfilePageContainer .ProfilePageItems .info{
+    width: 50%;
+    border-radius: 100px;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+    list-style: none;
+
+}
+
+
+.ProfilePageContainer .ProfilePageItems .cardPost {
+
+    width: 20%;
+    gap: 20px;
+    flex-direction: column;
+    -moz-box-shadow: 0 0 2px #333333;
+    -webkit-box-shadow:0 0 2px #333333;
+    box-shadow: 0 0 10px #333333;
+}
+
+.ProfilePageContainer .ProfilePageItems .cardPost .profileImg{
+
+    width: 100%;
+    color: white;
+    height: 200px;
+    background-color: black;
+
+}
+
+
+.ProfilePageContainer .ProfilePageItems .cardPost .profileText{
+
+    width: 100%;
+}
+
+.ProfilePageContainer .ProfilePageItems .cardPost .profileText .textProfile{
+
+    font-size: 15px;
+    padding: 3px;
+    margin-top: 10px;
+    color: purple;
+}
+ 
+    
+.ProfilePageContainer .ProfilePageItems .cardPost .profileUser{
+
+    width: 100%;
+    align-items: left;
+    margin-left: 10px;
+    gap: 200px;
+    padding: 10px;
+}
+
+.ProfilePageContainer .ProfilePageItems .nav{
+
+    list-style: none;
+    gap:10px;
+}

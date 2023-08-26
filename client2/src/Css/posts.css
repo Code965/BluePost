@@ -1,0 +1,123 @@
+
+body{
+    font-family: 'ubuntu',sans-serif;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+h1,h2,h3{
+    font-size: 24px;
+    font-weight: 400;
+    color:white;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+}
+.container-post{
+    
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.items{  
+
+    width: 30%;
+    border-radius: 0px 0px 20px 20px;
+    -moz-box-shadow: 0 0 2px #333333;
+    -webkit-box-shadow:0 0 2px #333333;
+    box-shadow: 0 0 10px #333333;
+
+}
+
+.items:hover{
+
+    width: 30%;
+    border-radius: 0px 0px 20px 20px;
+    transform: scale(1.1);
+
+}
+
+.nav-post{
+    background-color:#007fff;
+    height: 70px;
+   
+}
+
+.post-center{
+
+    background: rgb(238, 238, 238);
+    height: 90px;
+  
+}
+
+.post-center .list{
+    list-style: none;
+}
+
+.username-post{
+    background-color: #007fff;
+    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.username-post .wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.username-post .text{
+    margin-left:10px;
+}
+
+.username-post label{
+   
+    color: white;
+    
+}
+
+.username-post .likeBtn{
+    border:none;
+    background-color: #007fff;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.username-post .likeBtn:hover{
+   transform: scale(1.2);
+}
+
+.username-post .unlikeBtn{
+    border:none;
+    background-color: #007fff;
+    color: rgb(218, 214, 214);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.username-post .unlikeBtn:hover{
+    transform: scale(1.2);
+ }
+
+
+
+

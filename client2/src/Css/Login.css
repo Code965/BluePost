@@ -1,0 +1,104 @@
+body{
+    font-family: 'ubuntu', sans-serif;
+}
+
+.boxLogin{
+ 
+    width: 100%;
+    height: 900px;
+    padding: 10px;
+    -moz-box-shadow: 2px 2px 2px #333333, 5px 6px 3px #30F744;
+    -webkit-box-shadow:2px 2px 2px #333333, 5px 6px 3px #30F744;
+    box-shadow: 2px 2px 2px #333333, 5px 6px 3px #30F744;
+}
+
+.boxLogin .sectionTitleLogin{
+
+    background-color: aliceblue;
+}
+
+.boxLogin .wrapContainerLogin{
+    height: 650px;
+    background-color:#007fff;
+    width: 30%;
+    border-radius: 20px;
+    -moz-box-shadow: 0 0 25px #333333;
+    -webkit-box-shadow:0 0 25px #333333;
+    box-shadow: 0 0 20px #333333;
+}
+
+.boxLogin .wrapContainerLogin .link:hover{
+  text-decoration: underline;
+  color:#b6bdb7;
+}
+
+.boxLogin .wrapContainerLogin .recLogin{
+   margin-top: 20px;
+   color:  white;
+   text-shadow: 2px 2px black;
+}
+
+.boxLogin .wrapContainerLogin .barBoxLogin{
+    height: 20px;
+    background: linear-gradient(
+        to right,
+        red 20%,
+        orange 20% 40%,
+        yellow 40% 60%,
+        green 60% 80%,
+        blue 80%
+        );
+    width: 100%;
+
+}
+
+.boxLogin .wrapContainerLogin .titleBoxLogin{
+
+    background-color: #d2d2d2;
+    width: 100%;
+}
+
+.boxLogin .wrapContainerLogin h1{
+    margin-top: 50px;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    margin-bottom: 50px;
+}
+
+.boxLogin .wrapContainerLogin .labLogin{
+    margin-top: 30px;
+}
+
+.boxLogin .wrapContainerLogin .fieldLogin{
+
+    height: 80px;
+    font-family: 'ubuntu',sans-serif;
+    margin-top: 50px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.boxLogin .wrapContainerLogin button{
+
+    margin-top: 50px;
+    outline: none;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c3c5c4;
+    width: 80%;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 1px black;
+}
+
+.boxLogin .wrapContainerLogin button svg{
+    margin-left: 50px;
+    
+    text-shadow: 2px 2px black;
+}

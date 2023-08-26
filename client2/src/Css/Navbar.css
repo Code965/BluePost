@@ -1,0 +1,71 @@
+*{
+    margin:0;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+ 
+.align-center{
+    align-items: center;
+}  
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar{
+
+    width: 100%;
+    padding: 1%;
+    background-color: #007fff;
+}
+
+
+#navbar #nav-list{
+    list-style: none;
+    
+    gap: 10px;
+    justify-content: space-between;
+    color:white
+    
+}
+
+#navbar #nav-list .center2{
+    gap: 10px;
+}
+
+#navbar #nav-list .center3{
+    gap: 10px;
+}
+
+#navbar #nav-list .center4{
+    gap: 1500px;
+}
+
+#navbar #nav-list .center{
+    gap: 10px;
+}
+
+#navbar #nav-list .center button{
+
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+    font-size: 15px;
+    font-family: 'ubuntu' ,sans-serif;
+    padding: 10%;
+    background-color: cornflowerblue;
+    color: white;
+
+}

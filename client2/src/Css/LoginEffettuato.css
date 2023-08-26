@@ -1,0 +1,15 @@
+body{
+
+}
+
+.PersonalPage{
+    width: 100%;
+    height: 900px;
+
+}
+
+.PersonalPageItems{
+    background-color: black;
+    width: 10%;
+  
+}
