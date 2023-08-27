@@ -1,5 +1,5 @@
 import React, {useContext, useEffect} from 'react';
-import '../Css/CreatePost.css'
+import '../Css/Registrazione.css'
 import {Formik, Form, Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup'; 
 import axios from 'axios';

@@ -91,8 +91,10 @@ function Home() {
       {post.map((value,key)=>{
 
             return (
-            
+            <div>
+           
               <div className='container-post  '>
+
                   <div className='items' >
                   
                     <div className='nav-post flex-container justify-content align-center'>
@@ -117,6 +119,7 @@ function Home() {
                         </div>
                     </div>
                   </div>
+              </div>
               </div>
             )
 
